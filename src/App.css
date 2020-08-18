@@ -1,0 +1,35 @@
+body {
+  background-color: #152e3c;
+  color: white;
+}
+
+.ahihi {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-left: 12px;
+  border-radius: 8px;
+  border: 1px solid;
+  padding: 20px;
+  width: 70%;
+}
+
+.ahihi:hover {
+  background-color: #3e606d;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.ahihi-item {
+  width: 90%;
+}
+
+.ahihi button {
+  align-self: flex-start;
+  margin-left: 10px;
+}
+
+.btn-edit a {
+  color: white;
+  text-decoration: none;
+}
